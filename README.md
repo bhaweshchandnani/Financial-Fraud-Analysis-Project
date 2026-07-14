@@ -48,6 +48,7 @@ The dataset was prepared in Microsoft Excel before importing it into Power BI.
   • Recommended Actions
 
 -->> Key Insights
+
   • Total transaction amount reached its highest level in June.
   • March recorded the highest fraud rate.
   • Hyderabad generated the highest transaction value and recorded the highest fraud rate, while Kolkata had the highest transaction volume and the highest fraud amount.
@@ -60,6 +61,7 @@ The dataset was prepared in Microsoft Excel before importing it into Power BI.
     • Debit Card consistently recorded the highest number of fraudulent transactions across all years (2023–2025).
 
 -->> Business Recommendations
+
   • Add an extra verification step for high-value Credit Card transactions.
   • Review and update fraud detection rules before March.
   • Strengthen fraud monitoring for transactions in Hyderabad.
