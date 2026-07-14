@@ -3,6 +3,7 @@
 -->> Project Overview
 This project presents an interactive Power BI dashboard built to analyze financial transaction data and identify fraud patterns. The dashboard provides insights into transaction performance, transaction types, city-wise analysis, category trends, and fraud distribution to support business decision-making.
 
+
 -->> Business Objectives
 
 • Analyze overall transaction performance.
@@ -17,6 +18,7 @@ This project presents an interactive Power BI dashboard built to analyze financi
 
 • Generate data-driven business recommendations.
 
+
 -->> Tech Stack
 
 • Microsoft Excel
@@ -27,9 +29,11 @@ This project presents an interactive Power BI dashboard built to analyze financi
 
 • DAX
 
+
 -->> Data Preparation
 
 The dataset was prepared in Microsoft Excel before importing it into Power BI.
+
 
 -->> Data Cleaning
 
@@ -42,6 +46,7 @@ The dataset was prepared in Microsoft Excel before importing it into Power BI.
 • Excluded the Country column from analysis due to inconsistent location data.
 
 • Validated calculations using Excel Pivot Tables before building the dashboard.
+
 
 -->> Dashboard Structure
 
@@ -79,6 +84,7 @@ Page 4 — Insights & Recommendations
 
 • Recommended Actions
 
+
 -->> Key Insights
 
 • Total transaction amount reached its highest level in June.
@@ -101,6 +107,7 @@ Page 4 — Insights & Recommendations
 
 • Debit Card consistently recorded the highest number of fraudulent transactions across all years (2023–2025).
 
+
 -->> Business Recommendations
 
 • Add an extra verification step for high-value Credit Card transactions.
@@ -112,6 +119,7 @@ Page 4 — Insights & Recommendations
 • Prioritize detailed reviews for transactions in the Clothing category.
 
 • Review high-value transactions more closely during October.
+
 
 -->> Dataset Information Source:
 
