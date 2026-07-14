@@ -28,57 +28,49 @@ The dataset was prepared in Microsoft Excel before importing it into Power BI.
 • Validated calculations using Excel Pivot Tables before building the dashboard.
 
 -->> Dashboard Structure
-* Page 1 — Executive Overview
-  • KPI Cards
-  • Monthly Transaction Trend
-  • Transaction Amount by City
-* Page 2 — Transaction Analysis
-  • Transaction Amount by Category
-  • Transaction Amount by Category
-  • Total Transactions by City
-  • Transactions by Transaction Type
-* Page 3 — Fraud Risk Analysis
-  • Fraud Amount by Category
-  • Fraud Amount by Transaction Type
-  • Fraud Amount by City
-  • Fraud Transactions by Transaction Type
-  • Fraud Rate by City
-* Page 4 — Insights & Recommendations
-  • Key Insights
-  • Recommended Actions
+
+Page 1 — Executive Overview
+• KPI Cards
+• Monthly Transaction Trend
+• Transaction Amount by City
+
+Page 2 — Transaction Analysis
+• Transaction Amount by Category
+• Total Transactions by City
+• Transactions by Transaction Type
+
+Page 3 — Fraud Risk Analysis
+• Fraud Amount by Category
+• Fraud Amount by Transaction Type
+• Fraud Amount by City
+• Fraud Transactions by Transaction Type
+• Fraud Rate by City
+
+Page 4 — Insights & Recommendations
+• Key Insights
+• Recommended Actions
 
 -->> Key Insights
+• Total transaction amount reached its highest level in June.
+• March recorded the highest fraud rate.
+• Hyderabad generated the highest transaction value and recorded the highest fraud rate, while Kolkata had the highest transaction volume and the highest fraud amount.
+• Debit Card recorded the highest number of fraudulent transactions, while Credit Card accounted for the highest fraudulent transaction value.
+• Electronics generated the highest transaction amount among all categories.
+• Clothing recorded the highest fraud rate and fraud transaction count, while Education recorded the highest fraud amount.
 
-  • Total transaction amount reached its highest level in June.
-  
-  • March recorded the highest fraud rate.
-  
-  • Hyderabad generated the highest transaction value and recorded the highest fraud rate, while Kolkata had the highest transaction volume and the highest fraud amount.
-  
-  • Debit Card recorded the highest number of fraudulent transactions, while Credit Card accounted for the highest fraudulent transaction value.
-  
-  • Electronics generated the highest transaction amount among all categories.
-  
-  • Clothing recorded the highest fraud rate and fraud transaction count, while Education recorded the highest fraud amount.
-  
 * Additional Findings-
-  
-  • October recorded the highest fraudulent transaction amount.
-  
-  • Credit Card accounted for the highest fraud amount in 6 out of 10 cities and also recorded the highest fraudulent transaction value overall.
-  
-    • Debit Card consistently recorded the highest number of fraudulent transactions across all years (2023–2025).
+• October recorded the highest fraudulent transaction amount.
+• Credit Card accounted for the highest fraud amount in 6 out of 10 cities and also recorded the highest fraudulent transaction value overall.
+• Debit Card consistently recorded the highest number of fraudulent transactions across all years (2023–2025).
 
 -->> Business Recommendations
+• Add an extra verification step for high-value Credit Card transactions.
+• Review and update fraud detection rules before March.
+• Strengthen fraud monitoring for transactions in Hyderabad.
+• Prioritize detailed reviews for transactions in the Clothing category.
+• Review high-value transactions more closely during October.
 
-  • Add an extra verification step for high-value Credit Card transactions.
-  • Review and update fraud detection rules before March.
-  • Strengthen fraud monitoring for transactions in Hyderabad.
-  • Prioritize detailed reviews for transactions in the Clothing category.
-  • Review high-value transactions more closely during October.
-
--->> Dataset Information
-Source: Kaggle
-Original Records: 6,060
+-->> Dataset Information Source:
+Kaggle Original Records: 6,060
 Final Records Used: 6,048
 Domain: Financial Transactions
