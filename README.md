@@ -57,7 +57,7 @@ The dataset was prepared in Microsoft Excel before importing it into Power BI.
 * Additional Findings-
   • October recorded the highest fraudulent transaction amount.
   • Credit Card accounted for the highest fraud amount in 6 out of 10 cities and also recorded the highest fraudulent transaction value overall.
-  • Debit Card consistently recorded the highest number of fraudulent transactions across all years (2023–2025).
+    • Debit Card consistently recorded the highest number of fraudulent transactions across all years (2023–2025).
 
 -->> Business Recommendations
   • Add an extra verification step for high-value Credit Card transactions.
