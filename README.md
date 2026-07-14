@@ -50,14 +50,23 @@ The dataset was prepared in Microsoft Excel before importing it into Power BI.
 -->> Key Insights
 
   • Total transaction amount reached its highest level in June.
+  
   • March recorded the highest fraud rate.
+  
   • Hyderabad generated the highest transaction value and recorded the highest fraud rate, while Kolkata had the highest transaction volume and the highest fraud amount.
+  
   • Debit Card recorded the highest number of fraudulent transactions, while Credit Card accounted for the highest fraudulent transaction value.
+  
   • Electronics generated the highest transaction amount among all categories.
+  
   • Clothing recorded the highest fraud rate and fraud transaction count, while Education recorded the highest fraud amount.
+  
 * Additional Findings-
+  
   • October recorded the highest fraudulent transaction amount.
+  
   • Credit Card accounted for the highest fraud amount in 6 out of 10 cities and also recorded the highest fraudulent transaction value overall.
+  
     • Debit Card consistently recorded the highest number of fraudulent transactions across all years (2023–2025).
 
 -->> Business Recommendations
