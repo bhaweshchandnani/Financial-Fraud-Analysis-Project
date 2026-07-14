@@ -28,6 +28,7 @@ This project presents an interactive Power BI dashboard built to analyze financi
 • DAX
 
 -->> Data Preparation
+
 The dataset was prepared in Microsoft Excel before importing it into Power BI.
 
 -->> Data Cleaning
@@ -92,7 +93,7 @@ Page 4 — Insights & Recommendations
 
 • Clothing recorded the highest fraud rate and fraud transaction count, while Education recorded the highest fraud amount.
 
-* Additional Findings-
+** Additional Findings-
 
 • October recorded the highest fraudulent transaction amount.
 
@@ -113,6 +114,9 @@ Page 4 — Insights & Recommendations
 • Review high-value transactions more closely during October.
 
 -->> Dataset Information Source:
+
 Kaggle Original Records: 6,060
+
 Final Records Used: 6,048
+
 Domain: Financial Transactions
