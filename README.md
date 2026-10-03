@@ -1,7 +1,7 @@
 ### Financial Fraud Analysis Project
 
 -->> Project Overview
-This project presents an interactive Power BI dashboard built to analyze financial transaction data and identify fraud patterns. The dashboard provides insights into transaction performance, transaction types, city-wise analysis, category trends, and fraud distribution to support business decision-making.
+This project presents an interactive Power BI dashboard built using Excel, Power Query, and DAX to analyze 6,048 financial transactions and uncover fraud patterns. The analysis distinguishes fraud frequency from fraud severity — revealing that the cities and payment methods with the highest fraud rates aren't always the ones with the highest fraud value. The dashboard covers transaction trends, city-wise and category-wise performance, and payment-type risk distribution to support data-driven fraud-monitoring decisions.
 
 
 -->> Business Objectives
