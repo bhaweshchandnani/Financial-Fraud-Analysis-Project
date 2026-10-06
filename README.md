@@ -101,7 +101,7 @@ Page 4 — Insights & Recommendations
 
 ** Additional Findings-
 
-• October recorded the highest fraudulent transaction amount.
+• April recorded the highest fraudulent transaction amount.
 
 • Credit Card accounted for the highest fraud amount in 6 out of 10 cities and also recorded the highest fraudulent transaction value overall.
 
@@ -118,7 +118,7 @@ Page 4 — Insights & Recommendations
 
 • Prioritize detailed reviews for transactions in the Clothing category.
 
-• Review high-value transactions more closely during October.
+• Review high-value transactions more closely during April.
 
 
 -->> Dataset Information Source:
