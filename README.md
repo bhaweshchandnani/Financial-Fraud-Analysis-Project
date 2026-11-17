@@ -1,33 +1,44 @@
 ### Financial Fraud Analysis Project
 
 -->> Project Overview
-This project presents an interactive Power BI dashboard built using Excel, Power Query, and DAX to analyze 6,048 financial transactions and uncover fraud patterns. The analysis distinguishes fraud frequency from fraud severity — revealing that the cities and payment methods with the highest fraud rates aren't always the ones with the highest fraud value. The dashboard covers transaction trends, city-wise and category-wise performance, and payment-type risk distribution to support data-driven fraud-monitoring decisions.
+Financial fraud is a major challenge for businesses, as identifying suspicious transactions while minimizing unnecessary friction for genuine customers requires a better understanding of transaction patterns and risk indicators.
 
+This project analyzes financial transaction data to identify fraud patterns, examine risk across payment methods and cities, and understand how transaction amounts relate to fraudulent activity.
+
+Using Excel, Power Query, DAX, and Power BI, I cleaned and analyzed transaction data and developed an interactive dashboard to convert raw transaction records into actionable business insights.
 
 -->> Business Objectives
 
-• Analyze overall transaction performance.
+• Understand the overall distribution of fraudulent and non-fraudulent transactions.
 
-• Monitor monthly transaction trends.
+• Analyze monthly transaction amounts and fraud-related amounts.
 
-• Compare transaction amount across cities and categories.
+• Identify categories, payment methods, and cities with higher fraud activity.
 
-• Analyze transaction types usage.
+• Examine fraud patterns across transaction amount ranges and days of the week.
 
-• Identify fraud hotspots and fraud patterns.
+• Evaluate whether high-value transactions are necessarily associated with fraud.
 
-• Generate data-driven business recommendations.
+• Develop data-backed recommendations to improve transaction monitoring and fraud prevention.
 
 
 -->> Tech Stack
 
-• Microsoft Excel
+• Excel
 
-• Power BI
+Initial data inspection, data cleaning and analysis
 
 • Power Query
 
+Data transformation
+
+• Power BI
+
+Interactive dashboard development
+
 • DAX
+
+KPI calculations and analytical measures
 
 
 -->> Data Preparation
@@ -43,7 +54,7 @@ The dataset was prepared in Microsoft Excel before importing it into Power BI.
 
 • Checked for missing values and inconsistent records.
 
-• Excluded the Country column from analysis due to inconsistent location data.
+• Excluded the Country and currency column from analysis due to inconsistent location data.
 
 • Validated calculations using Excel Pivot Tables before building the dashboard.
 
@@ -52,73 +63,103 @@ The dataset was prepared in Microsoft Excel before importing it into Power BI.
 
 Page 1 — Executive Overview
 
-• KPI Cards
+Objective: Understand the overall transaction and fraud situation.
 
-• Monthly Transaction Trend
+Key metrics and visualizations:
 
-• Transaction Amount by City
+• Total Transactions
 
-Page 2 — Transaction Analysis
+• Fraud Transactions
 
-• Transaction Amount by Category
+• Fraud Rate
 
-• Total Transactions by City
+• Unknown Transactions
 
-• Transactions by Transaction Type
+Fraud Status Distribution
 
-Page 3 — Fraud Risk Analysis
+• Total Transaction Amount by Month
 
-• Fraud Amount by Category
+• Fraud Amount by Month
 
-• Fraud Amount by Transaction Type
+Page 2 – Fraud Risk Analysis
 
-• Fraud Amount by City
+Objective: Identify where fraud activity is concentrated.
 
-• Fraud Transactions by Transaction Type
+Key analysis:
+
+• Fraud Transactions by Category
+
+• Fraud Rate by Payment Method
 
 • Fraud Rate by City
 
-Page 4 — Insights & Recommendations
+• Fraud Transactions by City
 
-• Key Insights
+Page 3 – Transaction Behaviour
 
-• Recommended Actions
+Objective: Examine transaction-level patterns associated with fraudulent activity.
 
+Key analysis:
 
--->> Key Insights
+• Fraud Transactions by Amount Range
 
-• Total transaction amount reached its highest level in June.
+• Fraud Transactions by Day of the Week
 
-• March recorded the highest fraud rate.
+• Top 10 Highest-Value Transactions
 
-• Hyderabad generated the highest transaction value and recorded the highest fraud rate, while Kolkata had the highest transaction volume and the highest fraud amount.
+• Fraud Amount by Amount Range
 
-• Debit Card recorded the highest number of fraudulent transactions, while Credit Card accounted for the highest fraudulent transaction value.
+Page 4 – Insights & Recommendations
 
-• Electronics generated the highest transaction amount among all categories.
+Objective: Translate analytical findings into practical business recommendations.
 
-• Clothing recorded the highest fraud rate and fraud transaction count, while Education recorded the highest fraud amount.
+This page summarizes the key findings and proposed actions for improving transaction monitoring and reducing unnecessary verification friction.
 
-** Additional Findings-
+Key Insights
 
-• April recorded the highest fraudulent transaction amount.
+1. Fraud is relatively rare
 
-• Credit Card accounted for the highest fraud amount in 6 out of 10 cities and also recorded the highest fraudulent transaction value overall.
+Fraudulent transactions account for approximately 1% of all transactions with known fraud labels.
 
-• Debit Card consistently recorded the highest number of fraudulent transactions across all years (2023–2025).
+2. Payment methods show different fraud patterns
 
+Debit cards have the highest number of fraud cases, whereas credit cards have the highest fraud rate.
 
--->> Business Recommendations
+This highlights the importance of analyzing both fraud count and fraud rate rather than relying on transaction volume alone.
 
-• Add an extra verification step for high-value Credit Card transactions.
+3. Most fraud cases occur in the low-value range
 
-• Review and update fraud detection rules before March.
+56 out of 63 fraud cases fall within the low-value transaction range. However, approximately 4,874 transactions also fall into this range, and its fraud rate is close to the overall fraud rate.
 
-• Strengthen fraud monitoring for transactions in Hyderabad.
+Therefore, the higher fraud count is largely associated with the higher volume of low-value transactions.
 
-• Prioritize detailed reviews for transactions in the Clothing category.
+4. High transaction value does not automatically indicate fraud
 
-• Review high-value transactions more closely during April.
+9 out of the 10 highest-value transactions were genuine.
+
+This suggests that transaction amount alone is not a reliable indicator for identifying fraudulent activity.
+
+Business Recommendations
+
+Based on the observed patterns, the following actions are recommended:
+
+1. Risk-based verification for high-value credit card transactions
+
+Introduce an additional verification step for unusually high-value credit card transactions instead of applying extra checks to every transaction.
+
+2. Context-based checks for debit card transactions
+
+Strengthen monitoring when multiple risk indicators occur together, such as unusual transaction type combined with an unusual amount.
+
+3. Monitor fraud rate alongside fraud count
+
+Evaluate both metrics when identifying high-risk payment methods, categories, and cities, as fraud counts can largely reflect differences in transaction volume.
+
+4. Use multiple fraud indicators
+
+Combine transaction amount with other risk signals instead of relying on amount alone. This can help minimize unnecessary friction for genuine high-value transactions.
+
+These are analytical recommendations based on observed dataset patterns, not tested or proven fraud-prevention interventions.
 
 
 -->> Dataset Information Source:
